@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/group_5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtEmail"
         android:layout_width="300dp"
         android:layout_height="64dp"
         android:layout_marginStart="60dp"
@@ -51,7 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/txtPass"
         android:layout_width="300dp"
         android:layout_height="64dp"
         android:layout_marginTop="4dp"
@@ -60,23 +60,23 @@
         android:ems="10"
         android:hint="Type password"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtEmail"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/txtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnLogin"
         android:layout_width="303dp"
         android:layout_height="64dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="#EF77B0"
         android:text="sign in"
 
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="@+id/txtPass"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintStart_toStartOf="@+id/txtPass"
+        app:layout_constraintTop_toBottomOf="@+id/txtPass" />
 
     <TextView
         android:id="@+id/textView2"
@@ -85,10 +85,10 @@
         android:layout_marginTop="4dp"
         android:text="FORGOT PASSWORD"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
         app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintStart_toStartOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
     <ImageView
         android:id="@+id/imageView8"
